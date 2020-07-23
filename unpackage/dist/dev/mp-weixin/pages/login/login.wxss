@@ -1,0 +1,114 @@
+
+.primary.data-v-2e85d0c9{
+	margin: 50px;
+	margin-bottom: 10px;
+	background:-webkit-linear-gradient(bottom,rgba(18,222,116,1) 0%,rgba(30,234,129,1) 100%);
+	background:linear-gradient(0deg,rgba(18,222,116,1) 0%,rgba(30,234,129,1) 100%);
+	border-radius:20px;
+	font-size:11px;
+	font-family:PingFang SC;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	padding: 5px 0;
+}
+.input-row.data-v-2e85d0c9{
+	border-bottom: 1px solid #E7E7E7;
+}
+.m-input-view.data-v-2e85d0c9{
+	margin-top: 30px;
+}
+.uni-input-wrapper.data-v-2e85d0c9{
+	padding: 20px 0;
+}
+.input-group.data-v-2e85d0c9{
+	margin:10px 25px;
+}
+.input-group.data-v-2e85d0c9::before {
+    position: absolute;
+    right: 0;
+    top: 0;
+    left: 0;
+    height: 1px;
+    content: '';
+    -webkit-transform: scaleY(.5);
+    transform: scaleY(.5);
+    background-color: #fff;
+}
+.input-row.border.data-v-2e85d0c9::after{
+	background-color: #fff;
+}
+.input-group.data-v-2e85d0c9::after{
+	background-color: #fff;
+}
+.tit1.data-v-2e85d0c9{
+	font-size:14px;
+	font-family:PingFang SC;
+	font-weight:bold;
+	color:rgba(0,0,0,1);
+	margin-left: 26px;
+}
+.box1.data-v-2e85d0c9{
+	width:77px;
+	height:77px;
+	margin: 66rpx auto;
+	background:rgba(75,255,189,1);
+	border-radius:4px;
+}
+.action-row.data-v-2e85d0c9 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin:0 60px ;
+}
+.action-row navigator.data-v-2e85d0c9 {
+	font-size:8px;
+	font-family:PingFang SC;
+	font-weight:400;
+	color:rgba(193,193,193,1)
+}
+.oauth-row.data-v-2e85d0c9 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.oauth-image.data-v-2e85d0c9 {
+	position: relative;
+	width: 50px;
+	height: 50px;
+	border: 1px solid #dddddd;
+	border-radius: 50px;
+	margin: 0 20px;
+	background-color: #ffffff;
+}
+.oauth-image image.data-v-2e85d0c9 {
+	width: 30px;
+	height: 30px;
+	margin: 10px;
+}
+.oauth-image button.data-v-2e85d0c9 {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+

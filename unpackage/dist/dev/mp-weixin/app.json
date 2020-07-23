@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/agency/agency",
+    "pages/answerresult/answerresult",
+    "pages/dati/dati",
+    "pages/paihang/paihang",
+    "pages/shezhi/shezhi",
+    "pages/shopdetail/shopdetail",
+    "pages/tiku/tiku",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/user/user",
+    "pages/flzn/flzn",
+    "pages/shop/shop"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff",
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#545454",
+    "selectedColor": "#545454",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/main/main",
+        "text": "首页",
+        "iconPath": "static/tab/tarbar_home_Normal@2x.png",
+        "selectedIconPath": "static/tab/tarbar_home_Selected@2x.png"
+      },
+      {
+        "pagePath": "pages/shop/shop",
+        "text": "商城",
+        "iconPath": "static/tab/tarbar_shop_Normal@2x.png",
+        "selectedIconPath": "./static/tab/tarbar_scan_Selected@2x.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/tab/tarbar_my_Normal@2x.png",
+        "selectedIconPath": "static/tab/tarbar_my_Selected@2x.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

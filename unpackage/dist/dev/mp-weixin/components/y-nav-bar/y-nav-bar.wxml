@@ -1,0 +1,1 @@
+<view class="navbar"><view>{{''+title+''}}</view><view><block wx:if="{{picshow}}"><image class="img" src="{{urlpicture}}"></image></block></view></view>

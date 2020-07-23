@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "我的",
+  "usingComponents": {
+    "y-gray-bar": "/components/y-gray-bar/y-gray-bar",
+    "y-right-menu": "/components/y-right-menu/y-right-menu",
+    "y-rright-mmenu": "/components/y-right-menu/y-right-menu",
+    "y-nav-bar": "/components/y-nav-bar/y-nav-bar"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "custom-head": "/components/customHead/customHead",
+    "y-gray-bar": "/components/y-gray-bar/y-gray-bar",
+    "m-icon": "/components/m-icon/m-icon"
+  }
+}

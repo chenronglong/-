@@ -1,0 +1,159 @@
+{
+    "pages": [ //pages数组中第一项表示应用启动页,
+
+        {
+            "path": "pages/main/main",
+            "style": {
+                // "navigationBarTitleText": "登录模板"
+                "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/agency/agency",
+            "style": {
+                // "navigationBarTitleText": "登录模板"
+            }
+        },
+        {
+            "path": "pages/answerresult/answerresult",
+            "style": {
+                // "navigationBarTitleText": "登录模板"
+            }
+        },
+
+
+        {
+            "path": "pages/dati/dati",
+            "style": {
+                // "navigationBarTitleText": "登录模板"
+            }
+        },
+        {
+            "path": "pages/paihang/paihang",
+            "style": {
+                // "navigationBarTitleText": "登录模板"
+            }
+        },
+
+        {
+            "path": "pages/shezhi/shezhi",
+            "style": {
+                // "navigationBarTitleText": "登录模板"
+            }
+        }, {
+            "path": "pages/shopdetail/shopdetail",
+            "style": {
+                // "navigationBarTitleText": "登录模板"
+            }
+        },
+        {
+            "path": "pages/tiku/tiku",
+            "style": {
+
+            }
+        }, {
+            "path": "pages/login/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        }, {
+            "path": "pages/reg/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        }, {
+            "path": "pages/pwd/pwd",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        }, {
+            "path": "pages/user/user",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        }, {
+            "path": "pages/flzn/flzn",
+            "style": {
+                "navigationBarTitleText": "分类指南"
+            }
+        }, {
+            "path": "pages/shop/shop",
+            "style": {
+                "navigationBarTitleText": "商城",
+                "navigationStyle": "custom"
+            }
+        }, {
+            "path": "pages/main/equityExplain",
+            "style": {}
+        }, {
+            "path": "pages/scan/scan",
+            "style": {
+                "navigationBarTitleText": "扫码"
+            }
+        }, {
+            "path": "pages/blockchain/blockchain",
+            "style": {}
+        }, {
+            "path": "pages/main/commission",
+            "style": {
+                "navigationBarTitleText": "分类代办"
+            }
+        }
+        ,{
+            "path" : "pages/user/integral",
+            "style": {
+                "navigationBarTitleText": "我的积分",
+                "navigationBarBackgroundColor":"#048C84"
+            }
+        }
+        ,{
+            "path" : "pages/user/reception",
+            "style" : {}
+        }
+    ],
+    "tabBar": {
+        "color": "#545454",
+        "selectedColor": "rgb(2,173,111)",
+        "backgroundColor": "#ffffff",
+        "list": [{
+                "pagePath": "pages/main/main",
+                "text": "首页",
+                "iconPath": "static/tab/tarbar_home_Normal@2x.png",
+                "selectedIconPath": "static/tab/tarbar_home_Selected@2x.png"
+            }, 
+            {
+                "pagePath": "pages/shop/shop",
+                "text": "商城",
+                "iconPath": "static/tab/tarbar_shop_Normal@2x.png",
+                "selectedIconPath": "./static/tab/tarbar_scan_Selected@2x.png"
+            },
+            {
+                "pagePath": "pages/blockchain/blockchain",
+                "text": "区块链",
+                "iconPath": "static/tab/tarbar_Blockchain_normal@2x.png",
+                "selectedIconPath": "static/tab/tarbar_Blockchain_Selectedl@2x.png"
+            },
+            {
+                "pagePath": "pages/user/user",
+                "text": "我的",
+                "iconPath": "static/tab/tarbar_my_Normal@2x.png",
+                "selectedIconPath": "static/tab/tarbar_my_Selected@2x.png"
+            }
+        ],
+        "midButton": {
+        			"width": "50px",
+        			"height": "45px",
+                    "text": "扫码",
+                    "iconWidth":"25px",
+        			"iconPath": "static/tab/tarbar_scan_normal@2x.png"
+        }
+    },
+    "globalStyle": {
+        // "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#fff"
+    },
+    "easycom": {
+        "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+    }
+}

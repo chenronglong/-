@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "custom-head": "/components/customHead/customHead",
+    "y-right-menu": "/components/y-right-menu/y-right-menu",
+    "y-rright-mmenu": "/components/y-right-menu/y-right-menu",
+    "y-gray-bar": "/components/y-gray-bar/y-gray-bar",
+    "y-nav-bar": "/components/y-nav-bar/y-nav-bar"
+  }
+}
